@@ -41,5 +41,5 @@
   isset($_POST['budget']) && $contact->add_message($_POST['budget'], 'Budget');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
-  echo $contact->send();
+  echo $contact->send(service@wefixpoint.com);
 ?>
